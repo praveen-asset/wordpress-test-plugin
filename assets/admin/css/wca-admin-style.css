@@ -1,0 +1,32 @@
+/*
+ * WP Custom Authers plugin by Praveen Singh Shekhawat
+ * Admin CSS
+ */
+
+.wca-col-12{
+    width: 100%;
+    display: inline-block;
+}
+
+.wca-col-6{
+    width: 50%; 
+    float: left;
+}
+.wca-col-12 .regular-text, .width100p{
+    width: 100%;
+}
+.wca-inner {
+    padding: 10px 10px 10px 0;
+}
+
+.wca-image-thumb {
+    width: 33.33%;
+    float: left;
+}
+.wca-image-thumb img {
+    width: 90%;
+}
+.wca-image-gallery {
+    margin-bottom: 10px;
+    display: inline-block;
+}

@@ -1,0 +1,104 @@
+/*
+ * WP Custom Authers plugin by Praveen Singh Shekhawat
+ * Front end CSS
+ */
+.wca-image-gallery > ul {
+    margin-bottom: 0;
+    list-style: none;
+}
+.wca-image-gallery > ul > li {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    width: 200px;
+}
+.wca-image-gallery > ul > li a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+.wca-image-gallery > ul > li a > img {
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    height: 100%;
+    width: 100%;
+}
+.wca-image-gallery > ul > li a:hover > img {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+.wca-image-gallery > ul > li a:hover .wca-image-gallery-poster > img {
+    opacity: 1;
+}
+.wca-image-gallery > ul > li a .wca-image-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: background-color 0.15s ease 0s;
+    -o-transition: background-color 0.15s ease 0s;
+    transition: background-color 0.15s ease 0s;
+}
+.wca-image-gallery > ul > li a .wca-image-gallery-poster > img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+}
+.wca-image-gallery > ul > li a:hover .wca-image-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.wca-image-gallery .justified-gallery > a > img {
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    height: 100%;
+    width: 100%;
+}
+.wca-image-gallery .justified-gallery > a:hover > img {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+.wca-image-gallery .justified-gallery > a:hover .wca-image-gallery-poster > img {
+    opacity: 1;
+}
+.wca-image-gallery .justified-gallery > a .wca-image-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: background-color 0.15s ease 0s;
+    -o-transition: background-color 0.15s ease 0s;
+    transition: background-color 0.15s ease 0s;
+}
+.wca-image-gallery .justified-gallery > a .wca-image-gallery-poster > img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+}
+.wca-image-gallery .justified-gallery > a:hover .wca-image-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.5);
+}
